@@ -1,0 +1,82 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was very easy to compare between two files with the plus and minus signs in terminal. 
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    When you have problems or bugs in the code, It's easy to go back to the old version and see what's missing or causing the problems. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    Having to save the code manually will allow greater flexiblitities to have which version you would like to save a version.
+
+    You can easily go back to previous version that you have been working on when you create a commit. 
+
+    When versions are being saved automatically, it's difficult to revert changes to previous state.
+    Also, You can't really track of your progress.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It's great for developers to have access to the multiple versions of files when they needed to. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log -p filename,
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    You can always go back to the previous states of my project and revert back to when I need to. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to create a backup periodically before something goes wrong ,and feel confident of having multiples version of my project stored on github. Dropbox periodicallay saves versions of my files.
+
+    You can restore to any point in time.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    You can revert to pervious versions of your files whenever you want. Also, you can compare any two versions against one another. 
+
+    Compare them against each other, mixing and matching.
+
+    You could compare those two versions directly against each other in order to determine which version you like better.
+
+
+    But intuitively, being able to view old versions is much more useful if each checkpoint is meaningful.
+
+    In Git terminology, these user-created checkpoints are called commits.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+   The advantage of manually commiting files is that you can commit small files with a clear logical purpose, making it easier to understand the changes you have made. (break up into pieces)
+
+   It's a good idea to keep commits small with one commit per logical change.
+
+   The disadvatange of files being automatically saved is that commits can be created too often, saving a commit every time you change a line of code. This can make your history hard to read since it will have a huge number of commits over a short time period.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because it is easier to view all the changes in different files at once.
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    Git log is used for viewing the commit history. Git diff is for comparing two verisions and see what has been changed. 
+
+How might using version control make you more confident to make changes that could break something?
+
+    You can always go back to a previous verion of your code to find the bug in the code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    I want to use git for all of my project to back up my work.
+
+What happens when you initialize a repository? Why do you need to do it?
+    When you initialize the repository, Git doesn’t create any commits for you. You’ll have to create the first commit yourself.
+
