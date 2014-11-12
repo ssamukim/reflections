@@ -2,5 +2,7 @@ When would you want to create a remote repository rather than keeping all your w
     
     Creating a remote repository allow you to work on the go and collaborate your work simutaneously with your friends. 
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-    
+	Manual pulling is better than automatic pulling because you have control over what branch gets pull and when it is pulled so that you can finish your part without interference from an automatic pull, making changes from under your feet.
+
