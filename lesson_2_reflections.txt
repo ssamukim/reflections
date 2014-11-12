@@ -1,0 +1,61 @@
+What happens when you initialize a repository? Why do you need to do it?
+    When you initialize the repository, Git doesn’t create any commits for you. You’ll have to create the first commit yourself.
+
+    You need to run initialize a repository to convert an existing, unversioned project to a Git repository or initialize a new empty repository. 
+
+    Executing git init creates a .git subdirectory in the project root, which contains all of the necessary metadata for the repo.
+
+    Recall that it's a good idea to keep commits small with one commit per logical change.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	Git makes it easier for you to do this by allowing you to specify exactly what changes should be committed.
+
+	To accomplish this, Git uses an intermediate area called the staging area. You can add files one at a time to the staging area.
+
+	For example, first time I add the cake recipe and then the frosting recipe. 
+	Then, when I'm ready to commit, Git bundles the entire contents of the staging area into a single commit and adds that to the repository.
+
+
+	The working directory is a single checkout of one version of the project.
+
+	The staging area is a file that stores information about what will go into your next commit. When you stage the files, it adds snapshots of them temporarily to the staging area, whereas the repository stores the snapshots of files permanently. 
+
+	from http://git-scm.com/book/en/v2/Getting-Started-Git-Basics
+
+
+	It's standard Git practice to write your commit message as if it were a command,
+
+	EX. Add a reflection note from lesson 1. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can decide whether you want to commit small with one commit per logical change. Or, You can discard the changes by resetting the staging area. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	Branches are useful when you want to try out a new experiemental feature or to create a different language version of the project. 
+
+	A lot of time, if I'm wokring on a feature, and then I come across a bug. Branch allows me to context switch and get away from the work that I need to fix the bug and then compartmentalize the work.
+
+	Experimental branch, unique feature branch 
+
+
+How do the diagrams help you visualize the branch structure?
+	
+	It's informative for users to visualize the branch structures in a cronogical way so that users can see how branches are connected and created by whom. 
+
+	help to visually see the reachability of branches. 
+
+
+// Merging Two Branches
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging two branches results in combining all of the commits made by two branches into a single branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Manually merging is better because users are aware of which parts of code have been merged. 
+
+	
+
