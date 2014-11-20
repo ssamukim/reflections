@@ -39,5 +39,32 @@ What is the benefit of having a copy of the last known state of the remote store
 	
 	One can work on the last known state while offline.
 
+	To see what the files look like on the different-oil branch, I can click on it, which is analogous to running git checkout.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
+	Collaboration between other team members would be extremely difficult since other plateforms may not offer the same collaboration features that can be found in Git and Github. 
+
+	Using other plateform, learning curve would be easier.
+	
+	If I had to collaborate on a coding project without using Git or GitHub (or any other form of version control designed for code), I might suggest that we all make changes to a shared folder, for example, a DropBox folder.  This would be a ligter-weight solution than using Git and GitHub.  However, if we both wanted to work on the same part of the file, it would be very difficult
+    to avoid clobbering each other's changes.
+
+    Real-time collaborative editors like Google Docs are also great for
+    collaboration, but I don't know a good version of Google Docs for code. Even if I did, I would be hesitant to use this approach on code that it's important to keep bug-free.  I would be worried that someone else would add a change that combined with my change to make a bug, and I might not even notice their change!
+
+	-the learning curb will be easier, since most likely it will be a series of conversations, but it would be much more verbose and much harder since there be none of the git features.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Trying out a new feature in a project would be perfect for making changes in a seperate branch. 
+
+	When trying out a new feature in a project, I prefer working in a seperate branch is better because you can switch between them as you choose to. 
+
+	On the other hand, having just one master is simpler. 
+
+	One big advantage is that this way merge conflicts can be resolved locally by pulling the master, and then merging it in the local branch.
+
+	I tend to work directly in master more often when I'm working on my own or with just one or two other people.  When working with a large group, though, using branches to keep track of which changes have already been reviewed and approved is extremely helpful.
+
+	
