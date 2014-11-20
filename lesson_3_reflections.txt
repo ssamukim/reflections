@@ -66,5 +66,7 @@ When would you want to make changes in a separate branch rather than directly in
 	One big advantage is that this way merge conflicts can be resolved locally by pulling the master, and then merging it in the local branch.
 
 	I tend to work directly in master more often when I'm working on my own or with just one or two other people.  When working with a large group, though, using branches to keep track of which changes have already been reviewed and approved is extremely helpful.
-
+	
+Testing Merging Remote Changes / Nov 18, 2015 
+	Sarah writes that you should run git fetch branch_name or git fetch master by mistake. Instead, you should run git fetch remote_name, which will fetch all branches from the given remote, or git fetch with no arguments, which fetches all branches from the origin remote.
 	
