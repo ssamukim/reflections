@@ -67,6 +67,9 @@ When would you want to make changes in a separate branch rather than directly in
 
 	I tend to work directly in master more often when I'm working on my own or with just one or two other people.  When working with a large group, though, using branches to keep track of which changes have already been reviewed and approved is extremely helpful.
 
-Testing Merging the changes together (local) / 5.30pm, Nov 19
 
-	
+// 6.01pm Merged the changes together (local & remote)
+
+Testing Merging Remote Changes 
+
+	Sarah writes that you should run git fetch branch_name or git fetch master by mistake. Instead, you should run git fetch remote_name, which will fetch all branches from the given remote, or git fetch with no arguments, which fetches all branches from the origin remote.
