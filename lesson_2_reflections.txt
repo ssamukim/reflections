@@ -55,7 +55,5 @@ What is the result of merging two branches together? Why do we represent it in t
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-	Manually merging is better because users are aware of which parts of code have been merged. 
-
-	
+	Manually merging is better because users are aware of which parts of code have been merged.	
 
